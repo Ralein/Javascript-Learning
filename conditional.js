@@ -8,3 +8,11 @@ else if(age==18){
 else{
     console.log("Not registered for voting, Not eligible ");
 }
+
+var vote_age=18;
+if(vote_age>=18){
+    console.log("Eligible to vote");
+}
+else{
+    console.log("Not eligible");
+}

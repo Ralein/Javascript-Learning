@@ -31,3 +31,12 @@ console.log(veg[1]);
 for(var i = 0;i<veg.length;i++){
     console.log(veg[i]);
 }
+
+var food = ['pizza','burger','chicken'];
+
+console.log(food.length);
+console.log(food[0]);
+console.log(food[1]);
+for(var i = 0;i<food.length;i++){
+    console.log(food[i]);
+}

@@ -29,3 +29,28 @@ favCar.lightOn = function() {
 console.log(favCar);
 favCar.turnTheKey();
 favCar.lightOn()
+
+
+var food=[];
+food.push("pizza");
+food.push("burger");
+food.push("chicken");
+food.push("pasta");
+food.push("rice");
+food.push("salad");
+console.log(food);
+food.pop(5);
+console.log(food);
+food.push("sushi");
+console.log(food);
+
+var favFood ={};
+favFood.color= "Red";
+favFood.area= "CBE";
+console.log(favFood);
+favFood.cooking=function(){
+    console.log("The food is is cooking");
+}
+favFood.eating = function() {
+    console.log("The user is eating");
+}
